@@ -16,11 +16,13 @@ public enum ContentValidator {
         let countryIDs = Set(pack.countries.map(\.id))
 
         // Unique ids
-        for (id, count) in Dictionary(grouping: pack.countries.map(\.id), by: { $0 }).mapValues(\.count) where count > 1 {
-            issues.append(.init(itemID: id, message: "duplicate country id"))
+        var seenCountryIDs = Set<String>()
+        for c in pack.countries where !seenCountryIDs.insert(c.id).inserted {
+            issues.append(ContentIssue(itemID: c.id, message: "duplicate country id"))
         }
-        for (id, count) in Dictionary(grouping: pack.destinations.map(\.id), by: { $0 }).mapValues(\.count) where count > 1 {
-            issues.append(.init(itemID: id, message: "duplicate destination id"))
+        var seenDestinationIDs = Set<String>()
+        for d in pack.destinations where !seenDestinationIDs.insert(d.id).inserted {
+            issues.append(ContentIssue(itemID: d.id, message: "duplicate destination id"))
         }
 
         // Countries

@@ -180,11 +180,14 @@ public enum GuessSearch {
             if ContentValidator.normalize(p.countryName).hasPrefix(q) { return 2 }
             return nil
         }
-        return pool
-            .filter { !guessedIDs.contains($0.id) }
-            .compactMap { p in rank(p).map { (p, $0) } }
-            .sorted { $0.1 != $1.1 ? $0.1 < $1.1 : $0.0.name < $1.0.name }
-            .prefix(limit)
-            .map(\.0)
+        var ranked: [(place: Place, rank: Int)] = []
+        for p in pool where !guessedIDs.contains(p.id) {
+            if let r = rank(p) { ranked.append((place: p, rank: r)) }
+        }
+        ranked.sort { a, b in
+            if a.rank != b.rank { return a.rank < b.rank }
+            return a.place.name < b.place.name
+        }
+        return ranked.prefix(limit).map { $0.place }
     }
 }
