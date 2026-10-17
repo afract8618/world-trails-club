@@ -1,0 +1,1542 @@
+{
+  "version": 1,
+  "countries": [
+    {
+      "id": "jp",
+      "name": "Japan",
+      "region": "eastAsia",
+      "latitude": 36.2,
+      "longitude": 138.25,
+      "unlockAfter": [],
+      "isPlusCollection": false
+    },
+    {
+      "id": "it",
+      "name": "Italy",
+      "region": "europe",
+      "latitude": 41.87,
+      "longitude": 12.57,
+      "unlockAfter": [],
+      "isPlusCollection": false
+    },
+    {
+      "id": "fr",
+      "name": "France",
+      "region": "europe",
+      "latitude": 46.6,
+      "longitude": 2.2,
+      "unlockAfter": [
+        "it"
+      ],
+      "isPlusCollection": false
+    },
+    {
+      "id": "us",
+      "name": "United States",
+      "region": "northAmerica",
+      "latitude": 39.8,
+      "longitude": -98.6,
+      "unlockAfter": [
+        "jp"
+      ],
+      "isPlusCollection": false
+    },
+    {
+      "id": "eg",
+      "name": "Egypt",
+      "region": "africa",
+      "latitude": 26.8,
+      "longitude": 30.8,
+      "unlockAfter": [
+        "fr"
+      ],
+      "isPlusCollection": false
+    },
+    {
+      "id": "br",
+      "name": "Brazil",
+      "region": "southAmerica",
+      "latitude": -14.2,
+      "longitude": -51.9,
+      "unlockAfter": [
+        "us"
+      ],
+      "isPlusCollection": false
+    }
+  ],
+  "destinations": [
+    {
+      "id": "jp-tokyo",
+      "name": "Tokyo",
+      "countryID": "jp",
+      "latitude": 35.68,
+      "longitude": 139.69,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "Until 1868 this city went by a different name, Edo."
+        },
+        {
+          "kind": "food",
+          "text": "Its fish market moved from Tsukiji to Toyosu in 2018."
+        },
+        {
+          "kind": "culture",
+          "text": "A scramble crossing here can see thousands of pedestrians cross at once."
+        },
+        {
+          "kind": "geography",
+          "text": "It is the most populous metropolitan area on Earth."
+        },
+        {
+          "kind": "landmark",
+          "text": "Home to the Skytree and the capital of Japan."
+        }
+      ],
+      "fact": "Greater Tokyo is home to roughly 37 million people — more than all of Canada.",
+      "aliases": []
+    },
+    {
+      "id": "jp-kyoto",
+      "name": "Kyoto",
+      "countryID": "jp",
+      "latitude": 35.01,
+      "longitude": 135.77,
+      "difficulty": 2,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "It served as the imperial capital for more than a thousand years."
+        },
+        {
+          "kind": "nature",
+          "text": "A famous bamboo grove grows in its Arashiyama district."
+        },
+        {
+          "kind": "culture",
+          "text": "Geiko and maiko still perform in its Gion district."
+        },
+        {
+          "kind": "landmark",
+          "text": "Thousands of vermilion torii gates climb the hill at Fushimi Inari."
+        },
+        {
+          "kind": "geography",
+          "text": "A short bullet-train ride from Osaka in Japan's Kansai region."
+        }
+      ],
+      "fact": "The city was largely spared bombing in WWII, which is why so many wooden temples survive.",
+      "aliases": []
+    },
+    {
+      "id": "jp-fuji",
+      "name": "Mount Fuji",
+      "countryID": "jp",
+      "latitude": 35.36,
+      "longitude": 138.73,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "nature",
+          "text": "An active stratovolcano that last erupted in 1707."
+        },
+        {
+          "kind": "culture",
+          "text": "Hokusai made it the star of thirty-six famous woodblock prints."
+        },
+        {
+          "kind": "geography",
+          "text": "Five lakes ring its northern base."
+        },
+        {
+          "kind": "history",
+          "text": "It became a UNESCO World Heritage cultural site in 2013."
+        },
+        {
+          "kind": "landmark",
+          "text": "At 3,776 m, it is the tallest mountain in Japan."
+        }
+      ],
+      "fact": "The official climbing season is only about two months long, in July and August.",
+      "aliases": [
+        "Fuji",
+        "Fujisan"
+      ]
+    },
+    {
+      "id": "it-rome",
+      "name": "Rome",
+      "countryID": "it",
+      "latitude": 41.9,
+      "longitude": 12.5,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "Legend says twin brothers raised by a she-wolf founded it."
+        },
+        {
+          "kind": "food",
+          "text": "Cacio e pepe and carbonara are its signature pastas."
+        },
+        {
+          "kind": "geography",
+          "text": "An entire independent country sits inside this city."
+        },
+        {
+          "kind": "culture",
+          "text": "Tossing a coin into the Trevi Fountain supposedly guarantees a return trip."
+        },
+        {
+          "kind": "landmark",
+          "text": "The Colosseum stands in the heart of Italy's capital."
+        }
+      ],
+      "fact": "Around €1.5 million in coins are thrown into the Trevi Fountain every year; they go to charity.",
+      "aliases": [
+        "Roma"
+      ]
+    },
+    {
+      "id": "it-venice",
+      "name": "Venice",
+      "countryID": "it",
+      "latitude": 45.44,
+      "longitude": 12.32,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "geography",
+          "text": "It is built across 118 small islands in a lagoon."
+        },
+        {
+          "kind": "history",
+          "text": "For centuries it was the capital of a powerful maritime republic."
+        },
+        {
+          "kind": "culture",
+          "text": "Elaborate masks are worn at its pre-Lent carnival."
+        },
+        {
+          "kind": "nature",
+          "text": "Seasonal 'acqua alta' floods regularly cover its main square."
+        },
+        {
+          "kind": "landmark",
+          "text": "Gondolas glide under the Rialto Bridge on its Grand Canal."
+        }
+      ],
+      "fact": "There are no cars in the historic center — even ambulances and fire engines are boats.",
+      "aliases": [
+        "Venezia"
+      ]
+    },
+    {
+      "id": "it-florence",
+      "name": "Florence",
+      "countryID": "it",
+      "latitude": 43.77,
+      "longitude": 11.26,
+      "difficulty": 2,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "The Medici banking family ruled here for generations."
+        },
+        {
+          "kind": "culture",
+          "text": "Many call it the birthplace of the Renaissance."
+        },
+        {
+          "kind": "food",
+          "text": "A famous thick T-bone steak is named after this city."
+        },
+        {
+          "kind": "landmark",
+          "text": "Brunelleschi's enormous brick dome crowns its cathedral."
+        },
+        {
+          "kind": "geography",
+          "text": "The capital of Tuscany, on the Arno river."
+        }
+      ],
+      "fact": "Michelangelo's David has stood here since 1504; the original moved indoors in 1873.",
+      "aliases": [
+        "Firenze"
+      ]
+    },
+    {
+      "id": "fr-paris",
+      "name": "Paris",
+      "countryID": "fr",
+      "latitude": 48.86,
+      "longitude": 2.35,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "Its old medieval fortress, the Bastille, was stormed in 1789."
+        },
+        {
+          "kind": "culture",
+          "text": "The world's most visited art museum sits beside the Seine here."
+        },
+        {
+          "kind": "food",
+          "text": "Bakeries here compete each year to make the city's best baguette."
+        },
+        {
+          "kind": "geography",
+          "text": "Its streets are numbered in 20 spiralling arrondissements."
+        },
+        {
+          "kind": "landmark",
+          "text": "The Eiffel Tower rises over the capital of France."
+        }
+      ],
+      "fact": "The Eiffel Tower was meant to be temporary and was nearly dismantled in 1909.",
+      "aliases": []
+    },
+    {
+      "id": "fr-nice",
+      "name": "Nice",
+      "countryID": "fr",
+      "latitude": 43.7,
+      "longitude": 7.27,
+      "difficulty": 2,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "It only became part of its current country in 1860."
+        },
+        {
+          "kind": "food",
+          "text": "Socca, a chickpea pancake, is its classic street food."
+        },
+        {
+          "kind": "culture",
+          "text": "Matisse spent much of his later life painting here."
+        },
+        {
+          "kind": "landmark",
+          "text": "The Promenade des Anglais curves along its pebble beach."
+        },
+        {
+          "kind": "geography",
+          "text": "The largest city on the French Riviera, near Monaco."
+        }
+      ],
+      "fact": "The Promenade des Anglais was named for English winter visitors who paid to build it in the 1820s.",
+      "aliases": []
+    },
+    {
+      "id": "fr-mont-saint-michel",
+      "name": "Mont-Saint-Michel",
+      "countryID": "fr",
+      "latitude": 48.64,
+      "longitude": -1.51,
+      "difficulty": 3,
+      "clues": [
+        {
+          "kind": "nature",
+          "text": "Some of the largest tidal ranges in Europe surround it."
+        },
+        {
+          "kind": "history",
+          "text": "It withstood a siege for decades during the Hundred Years' War."
+        },
+        {
+          "kind": "culture",
+          "text": "A Benedictine abbey has crowned this rock for over a millennium."
+        },
+        {
+          "kind": "geography",
+          "text": "A tidal island just off the coast where Normandy meets Brittany."
+        },
+        {
+          "kind": "landmark",
+          "text": "A walled village climbs up to a Gothic abbey on a rocky islet in France."
+        }
+      ],
+      "fact": "Only around 30 people live on the island, but it receives millions of visitors a year.",
+      "aliases": [
+        "Mont Saint Michel",
+        "Saint-Michel"
+      ]
+    },
+    {
+      "id": "us-new-york",
+      "name": "New York City",
+      "countryID": "us",
+      "latitude": 40.71,
+      "longitude": -74.01,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "The Dutch called it New Amsterdam."
+        },
+        {
+          "kind": "food",
+          "text": "Its thin, foldable slices made one style of pizza world-famous."
+        },
+        {
+          "kind": "culture",
+          "text": "Broadway theatres are clustered around its Times Square."
+        },
+        {
+          "kind": "geography",
+          "text": "Its five boroughs include Brooklyn and Manhattan."
+        },
+        {
+          "kind": "landmark",
+          "text": "The Statue of Liberty welcomes ships into its harbor."
+        }
+      ],
+      "fact": "More than 700 languages are spoken in the city, making it one of the most linguistically diverse places on Earth.",
+      "aliases": [
+        "New York",
+        "NYC"
+      ]
+    },
+    {
+      "id": "us-grand-canyon",
+      "name": "Grand Canyon",
+      "countryID": "us",
+      "latitude": 36.11,
+      "longitude": -112.11,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "nature",
+          "text": "Rock layers here expose nearly two billion years of geologic history."
+        },
+        {
+          "kind": "history",
+          "text": "John Wesley Powell led the first known expedition down its river in 1869."
+        },
+        {
+          "kind": "culture",
+          "text": "The Havasupai people have lived in its side canyons for centuries."
+        },
+        {
+          "kind": "geography",
+          "text": "Carved by the Colorado River in northern Arizona."
+        },
+        {
+          "kind": "landmark",
+          "text": "A mile-deep gorge that became a U.S. National Park in 1919."
+        }
+      ],
+      "fact": "The North and South Rims are only about 16 km apart, but a 350 km drive separates them.",
+      "aliases": []
+    },
+    {
+      "id": "us-new-orleans",
+      "name": "New Orleans",
+      "countryID": "us",
+      "latitude": 29.95,
+      "longitude": -90.07,
+      "difficulty": 2,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "It joined the United States through the Louisiana Purchase."
+        },
+        {
+          "kind": "food",
+          "text": "Beignets, gumbo and po'boys are local staples."
+        },
+        {
+          "kind": "culture",
+          "text": "Many consider it the birthplace of jazz."
+        },
+        {
+          "kind": "landmark",
+          "text": "Wrought-iron balconies line its French Quarter."
+        },
+        {
+          "kind": "geography",
+          "text": "A Louisiana city near the mouth of the Mississippi, famous for Mardi Gras."
+        }
+      ],
+      "fact": "Much of the city lies below sea level, so many of its cemeteries are built above ground.",
+      "aliases": [
+        "NOLA"
+      ]
+    },
+    {
+      "id": "eg-cairo",
+      "name": "Cairo",
+      "countryID": "eg",
+      "latitude": 30.04,
+      "longitude": 31.24,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "Its Al-Azhar university, founded in 970, is one of the oldest still running."
+        },
+        {
+          "kind": "food",
+          "text": "Koshari, a mix of lentils, rice and pasta, is its favorite street food."
+        },
+        {
+          "kind": "culture",
+          "text": "Khan el-Khalili has been a bustling bazaar since the 14th century."
+        },
+        {
+          "kind": "geography",
+          "text": "The largest city in the Arab world, on the banks of the Nile."
+        },
+        {
+          "kind": "landmark",
+          "text": "The Pyramids of Giza stand on the edge of Egypt's capital."
+        }
+      ],
+      "fact": "The Great Pyramid was the tallest human-made structure on Earth for nearly 4,000 years.",
+      "aliases": []
+    },
+    {
+      "id": "eg-luxor",
+      "name": "Luxor",
+      "countryID": "eg",
+      "latitude": 25.69,
+      "longitude": 32.64,
+      "difficulty": 2,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "As ancient Thebes, it was the capital at the height of the New Kingdom."
+        },
+        {
+          "kind": "culture",
+          "text": "Hot-air balloons drift over its west bank at sunrise."
+        },
+        {
+          "kind": "nature",
+          "text": "It sits in one of the sunniest, driest places on the planet."
+        },
+        {
+          "kind": "landmark",
+          "text": "The Valley of the Kings, with Tutankhamun's tomb, is just across the river."
+        },
+        {
+          "kind": "geography",
+          "text": "A Nile city in Upper Egypt home to Karnak Temple."
+        }
+      ],
+      "fact": "It's sometimes called the world's greatest open-air museum.",
+      "aliases": []
+    },
+    {
+      "id": "eg-alexandria",
+      "name": "Alexandria",
+      "countryID": "eg",
+      "latitude": 31.2,
+      "longitude": 29.92,
+      "difficulty": 2,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "Founded by a Macedonian conqueror in 331 BC."
+        },
+        {
+          "kind": "culture",
+          "text": "Its ancient library was the greatest center of learning in the classical world."
+        },
+        {
+          "kind": "food",
+          "text": "Seafood from its harbor is grilled fresh along the Corniche."
+        },
+        {
+          "kind": "landmark",
+          "text": "One of the Seven Wonders, a great lighthouse, once stood at its harbor."
+        },
+        {
+          "kind": "geography",
+          "text": "Egypt's second-largest city, on the Mediterranean coast."
+        }
+      ],
+      "fact": "Cleopatra, the last active ruler of Ptolemaic Egypt, ruled from this city.",
+      "aliases": []
+    },
+    {
+      "id": "br-rio",
+      "name": "Rio de Janeiro",
+      "countryID": "br",
+      "latitude": -22.91,
+      "longitude": -43.17,
+      "difficulty": 1,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "It was the capital of the Portuguese Empire for 13 years."
+        },
+        {
+          "kind": "culture",
+          "text": "Its samba schools spend all year preparing for one parade."
+        },
+        {
+          "kind": "nature",
+          "text": "One of the world's largest urban forests, Tijuca, grows inside it."
+        },
+        {
+          "kind": "geography",
+          "text": "Sugarloaf Mountain rises over its Guanabara Bay."
+        },
+        {
+          "kind": "landmark",
+          "text": "Christ the Redeemer watches over Copacabana from Corcovado."
+        }
+      ],
+      "fact": "Its name means 'River of January' — Portuguese explorers mistook the bay for a river's mouth.",
+      "aliases": [
+        "Rio"
+      ]
+    },
+    {
+      "id": "br-manaus",
+      "name": "Manaus",
+      "countryID": "br",
+      "latitude": -3.12,
+      "longitude": -60.02,
+      "difficulty": 3,
+      "clues": [
+        {
+          "kind": "history",
+          "text": "A rubber boom made it one of the richest cities in South America around 1900."
+        },
+        {
+          "kind": "culture",
+          "text": "It built an opulent opera house in the middle of the rainforest."
+        },
+        {
+          "kind": "nature",
+          "text": "Two rivers of different colors flow side by side without mixing nearby."
+        },
+        {
+          "kind": "geography",
+          "text": "The largest city in the heart of the Amazon rainforest."
+        },
+        {
+          "kind": "landmark",
+          "text": "The 'Meeting of the Waters' gateway city in Brazil's Amazonas state."
+        }
+      ],
+      "fact": "The dark Rio Negro and sandy Solimões run side by side for about 6 km before they mix.",
+      "aliases": []
+    },
+    {
+      "id": "br-iguazu",
+      "name": "Iguazu Falls",
+      "countryID": "br",
+      "latitude": -25.69,
+      "longitude": -54.44,
+      "difficulty": 2,
+      "clues": [
+        {
+          "kind": "nature",
+          "text": "It is made up of around 275 separate drops."
+        },
+        {
+          "kind": "history",
+          "text": "Eleanor Roosevelt reportedly said Niagara looked poor by comparison."
+        },
+        {
+          "kind": "culture",
+          "text": "Its name means 'big water' in the Guarani language."
+        },
+        {
+          "kind": "landmark",
+          "text": "Its most powerful section is called the Devil's Throat."
+        },
+        {
+          "kind": "geography",
+          "text": "A vast waterfall system on the border with Argentina."
+        }
+      ],
+      "fact": "In flood season, the falls can carry around 6,500 cubic meters of water per second.",
+      "aliases": [
+        "Iguacu Falls",
+        "Iguassu Falls",
+        "Foz do Iguacu"
+      ]
+    }
+  ],
+  "gazetteer": [
+    {
+      "id": "g-japan-osaka",
+      "name": "Osaka",
+      "countryName": "Japan",
+      "latitude": 34.69,
+      "longitude": 135.5,
+      "aliases": []
+    },
+    {
+      "id": "g-japan-sapporo",
+      "name": "Sapporo",
+      "countryName": "Japan",
+      "latitude": 43.06,
+      "longitude": 141.35,
+      "aliases": []
+    },
+    {
+      "id": "g-japan-hiroshima",
+      "name": "Hiroshima",
+      "countryName": "Japan",
+      "latitude": 34.39,
+      "longitude": 132.46,
+      "aliases": []
+    },
+    {
+      "id": "g-japan-nara",
+      "name": "Nara",
+      "countryName": "Japan",
+      "latitude": 34.68,
+      "longitude": 135.8,
+      "aliases": []
+    },
+    {
+      "id": "g-south-korea-seoul",
+      "name": "Seoul",
+      "countryName": "South Korea",
+      "latitude": 37.57,
+      "longitude": 126.98,
+      "aliases": []
+    },
+    {
+      "id": "g-south-korea-busan",
+      "name": "Busan",
+      "countryName": "South Korea",
+      "latitude": 35.18,
+      "longitude": 129.08,
+      "aliases": []
+    },
+    {
+      "id": "g-china-beijing",
+      "name": "Beijing",
+      "countryName": "China",
+      "latitude": 39.9,
+      "longitude": 116.4,
+      "aliases": []
+    },
+    {
+      "id": "g-china-shanghai",
+      "name": "Shanghai",
+      "countryName": "China",
+      "latitude": 31.23,
+      "longitude": 121.47,
+      "aliases": []
+    },
+    {
+      "id": "g-china-hong-kong",
+      "name": "Hong Kong",
+      "countryName": "China",
+      "latitude": 22.32,
+      "longitude": 114.17,
+      "aliases": []
+    },
+    {
+      "id": "g-taiwan-taipei",
+      "name": "Taipei",
+      "countryName": "Taiwan",
+      "latitude": 25.03,
+      "longitude": 121.57,
+      "aliases": []
+    },
+    {
+      "id": "g-thailand-bangkok",
+      "name": "Bangkok",
+      "countryName": "Thailand",
+      "latitude": 13.76,
+      "longitude": 100.5,
+      "aliases": []
+    },
+    {
+      "id": "g-vietnam-hanoi",
+      "name": "Hanoi",
+      "countryName": "Vietnam",
+      "latitude": 21.03,
+      "longitude": 105.85,
+      "aliases": []
+    },
+    {
+      "id": "g-singapore-singapore",
+      "name": "Singapore",
+      "countryName": "Singapore",
+      "latitude": 1.35,
+      "longitude": 103.82,
+      "aliases": []
+    },
+    {
+      "id": "g-philippines-manila",
+      "name": "Manila",
+      "countryName": "Philippines",
+      "latitude": 14.6,
+      "longitude": 120.98,
+      "aliases": []
+    },
+    {
+      "id": "g-indonesia-jakarta",
+      "name": "Jakarta",
+      "countryName": "Indonesia",
+      "latitude": -6.21,
+      "longitude": 106.85,
+      "aliases": []
+    },
+    {
+      "id": "g-indonesia-bali",
+      "name": "Bali",
+      "countryName": "Indonesia",
+      "latitude": -8.34,
+      "longitude": 115.09,
+      "aliases": []
+    },
+    {
+      "id": "g-india-delhi",
+      "name": "Delhi",
+      "countryName": "India",
+      "latitude": 28.61,
+      "longitude": 77.21,
+      "aliases": []
+    },
+    {
+      "id": "g-india-mumbai",
+      "name": "Mumbai",
+      "countryName": "India",
+      "latitude": 19.08,
+      "longitude": 72.88,
+      "aliases": []
+    },
+    {
+      "id": "g-india-agra",
+      "name": "Agra",
+      "countryName": "India",
+      "latitude": 27.18,
+      "longitude": 78.01,
+      "aliases": []
+    },
+    {
+      "id": "g-nepal-kathmandu",
+      "name": "Kathmandu",
+      "countryName": "Nepal",
+      "latitude": 27.72,
+      "longitude": 85.32,
+      "aliases": []
+    },
+    {
+      "id": "g-united-arab-emirates-dubai",
+      "name": "Dubai",
+      "countryName": "United Arab Emirates",
+      "latitude": 25.2,
+      "longitude": 55.27,
+      "aliases": []
+    },
+    {
+      "id": "g-turkey-istanbul",
+      "name": "Istanbul",
+      "countryName": "Turkey",
+      "latitude": 41.01,
+      "longitude": 28.98,
+      "aliases": []
+    },
+    {
+      "id": "g-israel-jerusalem",
+      "name": "Jerusalem",
+      "countryName": "Israel",
+      "latitude": 31.77,
+      "longitude": 35.21,
+      "aliases": []
+    },
+    {
+      "id": "g-jordan-petra",
+      "name": "Petra",
+      "countryName": "Jordan",
+      "latitude": 30.33,
+      "longitude": 35.44,
+      "aliases": []
+    },
+    {
+      "id": "g-italy-milan",
+      "name": "Milan",
+      "countryName": "Italy",
+      "latitude": 45.46,
+      "longitude": 9.19,
+      "aliases": []
+    },
+    {
+      "id": "g-italy-naples",
+      "name": "Naples",
+      "countryName": "Italy",
+      "latitude": 40.85,
+      "longitude": 14.27,
+      "aliases": []
+    },
+    {
+      "id": "g-italy-pisa",
+      "name": "Pisa",
+      "countryName": "Italy",
+      "latitude": 43.72,
+      "longitude": 10.4,
+      "aliases": []
+    },
+    {
+      "id": "g-italy-turin",
+      "name": "Turin",
+      "countryName": "Italy",
+      "latitude": 45.07,
+      "longitude": 7.69,
+      "aliases": []
+    },
+    {
+      "id": "g-france-lyon",
+      "name": "Lyon",
+      "countryName": "France",
+      "latitude": 45.76,
+      "longitude": 4.84,
+      "aliases": []
+    },
+    {
+      "id": "g-france-marseille",
+      "name": "Marseille",
+      "countryName": "France",
+      "latitude": 43.3,
+      "longitude": 5.37,
+      "aliases": []
+    },
+    {
+      "id": "g-france-bordeaux",
+      "name": "Bordeaux",
+      "countryName": "France",
+      "latitude": 44.84,
+      "longitude": -0.58,
+      "aliases": []
+    },
+    {
+      "id": "g-monaco-monaco",
+      "name": "Monaco",
+      "countryName": "Monaco",
+      "latitude": 43.74,
+      "longitude": 7.42,
+      "aliases": []
+    },
+    {
+      "id": "g-spain-madrid",
+      "name": "Madrid",
+      "countryName": "Spain",
+      "latitude": 40.42,
+      "longitude": -3.7,
+      "aliases": []
+    },
+    {
+      "id": "g-spain-barcelona",
+      "name": "Barcelona",
+      "countryName": "Spain",
+      "latitude": 41.39,
+      "longitude": 2.17,
+      "aliases": []
+    },
+    {
+      "id": "g-spain-seville",
+      "name": "Seville",
+      "countryName": "Spain",
+      "latitude": 37.39,
+      "longitude": -5.98,
+      "aliases": []
+    },
+    {
+      "id": "g-portugal-lisbon",
+      "name": "Lisbon",
+      "countryName": "Portugal",
+      "latitude": 38.72,
+      "longitude": -9.14,
+      "aliases": []
+    },
+    {
+      "id": "g-united-kingdom-london",
+      "name": "London",
+      "countryName": "United Kingdom",
+      "latitude": 51.51,
+      "longitude": -0.13,
+      "aliases": []
+    },
+    {
+      "id": "g-united-kingdom-edinburgh",
+      "name": "Edinburgh",
+      "countryName": "United Kingdom",
+      "latitude": 55.95,
+      "longitude": -3.19,
+      "aliases": []
+    },
+    {
+      "id": "g-ireland-dublin",
+      "name": "Dublin",
+      "countryName": "Ireland",
+      "latitude": 53.35,
+      "longitude": -6.26,
+      "aliases": []
+    },
+    {
+      "id": "g-netherlands-amsterdam",
+      "name": "Amsterdam",
+      "countryName": "Netherlands",
+      "latitude": 52.37,
+      "longitude": 4.9,
+      "aliases": []
+    },
+    {
+      "id": "g-belgium-brussels",
+      "name": "Brussels",
+      "countryName": "Belgium",
+      "latitude": 50.85,
+      "longitude": 4.35,
+      "aliases": []
+    },
+    {
+      "id": "g-germany-berlin",
+      "name": "Berlin",
+      "countryName": "Germany",
+      "latitude": 52.52,
+      "longitude": 13.4,
+      "aliases": []
+    },
+    {
+      "id": "g-germany-munich",
+      "name": "Munich",
+      "countryName": "Germany",
+      "latitude": 48.14,
+      "longitude": 11.58,
+      "aliases": []
+    },
+    {
+      "id": "g-austria-vienna",
+      "name": "Vienna",
+      "countryName": "Austria",
+      "latitude": 48.21,
+      "longitude": 16.37,
+      "aliases": []
+    },
+    {
+      "id": "g-switzerland-zurich",
+      "name": "Zurich",
+      "countryName": "Switzerland",
+      "latitude": 47.38,
+      "longitude": 8.54,
+      "aliases": []
+    },
+    {
+      "id": "g-czechia-prague",
+      "name": "Prague",
+      "countryName": "Czechia",
+      "latitude": 50.08,
+      "longitude": 14.44,
+      "aliases": []
+    },
+    {
+      "id": "g-hungary-budapest",
+      "name": "Budapest",
+      "countryName": "Hungary",
+      "latitude": 47.5,
+      "longitude": 19.04,
+      "aliases": []
+    },
+    {
+      "id": "g-greece-athens",
+      "name": "Athens",
+      "countryName": "Greece",
+      "latitude": 37.98,
+      "longitude": 23.73,
+      "aliases": []
+    },
+    {
+      "id": "g-greece-santorini",
+      "name": "Santorini",
+      "countryName": "Greece",
+      "latitude": 36.39,
+      "longitude": 25.46,
+      "aliases": []
+    },
+    {
+      "id": "g-croatia-dubrovnik",
+      "name": "Dubrovnik",
+      "countryName": "Croatia",
+      "latitude": 42.65,
+      "longitude": 18.09,
+      "aliases": []
+    },
+    {
+      "id": "g-denmark-copenhagen",
+      "name": "Copenhagen",
+      "countryName": "Denmark",
+      "latitude": 55.68,
+      "longitude": 12.57,
+      "aliases": []
+    },
+    {
+      "id": "g-sweden-stockholm",
+      "name": "Stockholm",
+      "countryName": "Sweden",
+      "latitude": 59.33,
+      "longitude": 18.07,
+      "aliases": []
+    },
+    {
+      "id": "g-norway-oslo",
+      "name": "Oslo",
+      "countryName": "Norway",
+      "latitude": 59.91,
+      "longitude": 10.75,
+      "aliases": []
+    },
+    {
+      "id": "g-iceland-reykjavik",
+      "name": "Reykjavik",
+      "countryName": "Iceland",
+      "latitude": 64.15,
+      "longitude": -21.94,
+      "aliases": []
+    },
+    {
+      "id": "g-russia-moscow",
+      "name": "Moscow",
+      "countryName": "Russia",
+      "latitude": 55.76,
+      "longitude": 37.62,
+      "aliases": []
+    },
+    {
+      "id": "g-morocco-marrakesh",
+      "name": "Marrakesh",
+      "countryName": "Morocco",
+      "latitude": 31.63,
+      "longitude": -8.01,
+      "aliases": []
+    },
+    {
+      "id": "g-morocco-casablanca",
+      "name": "Casablanca",
+      "countryName": "Morocco",
+      "latitude": 33.57,
+      "longitude": -7.59,
+      "aliases": []
+    },
+    {
+      "id": "g-tunisia-tunis",
+      "name": "Tunis",
+      "countryName": "Tunisia",
+      "latitude": 36.81,
+      "longitude": 10.18,
+      "aliases": []
+    },
+    {
+      "id": "g-egypt-aswan",
+      "name": "Aswan",
+      "countryName": "Egypt",
+      "latitude": 24.09,
+      "longitude": 32.9,
+      "aliases": []
+    },
+    {
+      "id": "g-egypt-giza",
+      "name": "Giza",
+      "countryName": "Egypt",
+      "latitude": 30.01,
+      "longitude": 31.21,
+      "aliases": []
+    },
+    {
+      "id": "g-sudan-khartoum",
+      "name": "Khartoum",
+      "countryName": "Sudan",
+      "latitude": 15.5,
+      "longitude": 32.56,
+      "aliases": []
+    },
+    {
+      "id": "g-ethiopia-addis-ababa",
+      "name": "Addis Ababa",
+      "countryName": "Ethiopia",
+      "latitude": 9.03,
+      "longitude": 38.74,
+      "aliases": []
+    },
+    {
+      "id": "g-kenya-nairobi",
+      "name": "Nairobi",
+      "countryName": "Kenya",
+      "latitude": -1.29,
+      "longitude": 36.82,
+      "aliases": []
+    },
+    {
+      "id": "g-tanzania-zanzibar",
+      "name": "Zanzibar",
+      "countryName": "Tanzania",
+      "latitude": -6.17,
+      "longitude": 39.2,
+      "aliases": []
+    },
+    {
+      "id": "g-nigeria-lagos",
+      "name": "Lagos",
+      "countryName": "Nigeria",
+      "latitude": 6.52,
+      "longitude": 3.38,
+      "aliases": []
+    },
+    {
+      "id": "g-ghana-accra",
+      "name": "Accra",
+      "countryName": "Ghana",
+      "latitude": 5.6,
+      "longitude": -0.19,
+      "aliases": []
+    },
+    {
+      "id": "g-south-africa-cape-town",
+      "name": "Cape Town",
+      "countryName": "South Africa",
+      "latitude": -33.92,
+      "longitude": 18.42,
+      "aliases": []
+    },
+    {
+      "id": "g-south-africa-johannesburg",
+      "name": "Johannesburg",
+      "countryName": "South Africa",
+      "latitude": -26.2,
+      "longitude": 28.05,
+      "aliases": []
+    },
+    {
+      "id": "g-zimbabwe-victoria-falls",
+      "name": "Victoria Falls",
+      "countryName": "Zimbabwe",
+      "latitude": -17.92,
+      "longitude": 25.86,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-los-angeles",
+      "name": "Los Angeles",
+      "countryName": "United States",
+      "latitude": 34.05,
+      "longitude": -118.24,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-san-francisco",
+      "name": "San Francisco",
+      "countryName": "United States",
+      "latitude": 37.77,
+      "longitude": -122.42,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-las-vegas",
+      "name": "Las Vegas",
+      "countryName": "United States",
+      "latitude": 36.17,
+      "longitude": -115.14,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-chicago",
+      "name": "Chicago",
+      "countryName": "United States",
+      "latitude": 41.88,
+      "longitude": -87.63,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-miami",
+      "name": "Miami",
+      "countryName": "United States",
+      "latitude": 25.76,
+      "longitude": -80.19,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-washington-d-c",
+      "name": "Washington, D.C.",
+      "countryName": "United States",
+      "latitude": 38.91,
+      "longitude": -77.04,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-boston",
+      "name": "Boston",
+      "countryName": "United States",
+      "latitude": 42.36,
+      "longitude": -71.06,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-seattle",
+      "name": "Seattle",
+      "countryName": "United States",
+      "latitude": 47.61,
+      "longitude": -122.33,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-atlanta",
+      "name": "Atlanta",
+      "countryName": "United States",
+      "latitude": 33.75,
+      "longitude": -84.39,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-nashville",
+      "name": "Nashville",
+      "countryName": "United States",
+      "latitude": 36.16,
+      "longitude": -86.78,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-yellowstone",
+      "name": "Yellowstone",
+      "countryName": "United States",
+      "latitude": 44.43,
+      "longitude": -110.59,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-yosemite",
+      "name": "Yosemite",
+      "countryName": "United States",
+      "latitude": 37.87,
+      "longitude": -119.54,
+      "aliases": []
+    },
+    {
+      "id": "g-united-states-honolulu",
+      "name": "Honolulu",
+      "countryName": "United States",
+      "latitude": 21.31,
+      "longitude": -157.86,
+      "aliases": []
+    },
+    {
+      "id": "g-canada-niagara-falls",
+      "name": "Niagara Falls",
+      "countryName": "Canada",
+      "latitude": 43.08,
+      "longitude": -79.07,
+      "aliases": []
+    },
+    {
+      "id": "g-canada-toronto",
+      "name": "Toronto",
+      "countryName": "Canada",
+      "latitude": 43.65,
+      "longitude": -79.38,
+      "aliases": []
+    },
+    {
+      "id": "g-canada-vancouver",
+      "name": "Vancouver",
+      "countryName": "Canada",
+      "latitude": 49.28,
+      "longitude": -123.12,
+      "aliases": []
+    },
+    {
+      "id": "g-canada-montreal",
+      "name": "Montreal",
+      "countryName": "Canada",
+      "latitude": 45.5,
+      "longitude": -73.57,
+      "aliases": []
+    },
+    {
+      "id": "g-mexico-mexico-city",
+      "name": "Mexico City",
+      "countryName": "Mexico",
+      "latitude": 19.43,
+      "longitude": -99.13,
+      "aliases": []
+    },
+    {
+      "id": "g-mexico-cancun",
+      "name": "Cancun",
+      "countryName": "Mexico",
+      "latitude": 21.16,
+      "longitude": -86.85,
+      "aliases": []
+    },
+    {
+      "id": "g-cuba-havana",
+      "name": "Havana",
+      "countryName": "Cuba",
+      "latitude": 23.11,
+      "longitude": -82.37,
+      "aliases": []
+    },
+    {
+      "id": "g-panama-panama-city",
+      "name": "Panama City",
+      "countryName": "Panama",
+      "latitude": 8.98,
+      "longitude": -79.52,
+      "aliases": []
+    },
+    {
+      "id": "g-colombia-bogota",
+      "name": "Bogota",
+      "countryName": "Colombia",
+      "latitude": 4.71,
+      "longitude": -74.07,
+      "aliases": []
+    },
+    {
+      "id": "g-colombia-cartagena",
+      "name": "Cartagena",
+      "countryName": "Colombia",
+      "latitude": 10.39,
+      "longitude": -75.48,
+      "aliases": []
+    },
+    {
+      "id": "g-peru-lima",
+      "name": "Lima",
+      "countryName": "Peru",
+      "latitude": -12.05,
+      "longitude": -77.04,
+      "aliases": []
+    },
+    {
+      "id": "g-peru-cusco",
+      "name": "Cusco",
+      "countryName": "Peru",
+      "latitude": -13.53,
+      "longitude": -71.97,
+      "aliases": []
+    },
+    {
+      "id": "g-peru-machu-picchu",
+      "name": "Machu Picchu",
+      "countryName": "Peru",
+      "latitude": -13.16,
+      "longitude": -72.55,
+      "aliases": []
+    },
+    {
+      "id": "g-ecuador-quito",
+      "name": "Quito",
+      "countryName": "Ecuador",
+      "latitude": -0.18,
+      "longitude": -78.47,
+      "aliases": []
+    },
+    {
+      "id": "g-bolivia-la-paz",
+      "name": "La Paz",
+      "countryName": "Bolivia",
+      "latitude": -16.49,
+      "longitude": -68.12,
+      "aliases": []
+    },
+    {
+      "id": "g-chile-santiago",
+      "name": "Santiago",
+      "countryName": "Chile",
+      "latitude": -33.45,
+      "longitude": -70.67,
+      "aliases": []
+    },
+    {
+      "id": "g-argentina-buenos-aires",
+      "name": "Buenos Aires",
+      "countryName": "Argentina",
+      "latitude": -34.6,
+      "longitude": -58.38,
+      "aliases": []
+    },
+    {
+      "id": "g-uruguay-montevideo",
+      "name": "Montevideo",
+      "countryName": "Uruguay",
+      "latitude": -34.9,
+      "longitude": -56.16,
+      "aliases": []
+    },
+    {
+      "id": "g-brazil-sao-paulo",
+      "name": "Sao Paulo",
+      "countryName": "Brazil",
+      "latitude": -23.55,
+      "longitude": -46.63,
+      "aliases": []
+    },
+    {
+      "id": "g-brazil-salvador",
+      "name": "Salvador",
+      "countryName": "Brazil",
+      "latitude": -12.97,
+      "longitude": -38.5,
+      "aliases": []
+    },
+    {
+      "id": "g-brazil-brasilia",
+      "name": "Brasilia",
+      "countryName": "Brazil",
+      "latitude": -15.79,
+      "longitude": -47.88,
+      "aliases": []
+    },
+    {
+      "id": "g-brazil-belem",
+      "name": "Belem",
+      "countryName": "Brazil",
+      "latitude": -1.46,
+      "longitude": -48.49,
+      "aliases": []
+    },
+    {
+      "id": "g-australia-sydney",
+      "name": "Sydney",
+      "countryName": "Australia",
+      "latitude": -33.87,
+      "longitude": 151.21,
+      "aliases": []
+    },
+    {
+      "id": "g-australia-melbourne",
+      "name": "Melbourne",
+      "countryName": "Australia",
+      "latitude": -37.81,
+      "longitude": 144.96,
+      "aliases": []
+    },
+    {
+      "id": "g-australia-uluru",
+      "name": "Uluru",
+      "countryName": "Australia",
+      "latitude": -25.34,
+      "longitude": 131.04,
+      "aliases": []
+    },
+    {
+      "id": "g-new-zealand-auckland",
+      "name": "Auckland",
+      "countryName": "New Zealand",
+      "latitude": -36.85,
+      "longitude": 174.76,
+      "aliases": []
+    },
+    {
+      "id": "g-new-zealand-queenstown",
+      "name": "Queenstown",
+      "countryName": "New Zealand",
+      "latitude": -45.03,
+      "longitude": 168.66,
+      "aliases": []
+    }
+  ]
+}
